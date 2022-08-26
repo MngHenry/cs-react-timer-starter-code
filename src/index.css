@@ -37,6 +37,7 @@ p {
   color: #ffffff;
   font-family: "Carme", sans-serif;
   font-size: 16px;
+  text-align: center;
 }
 
 .container {
@@ -91,6 +92,15 @@ p {
   border: 1px solid var(--text-main-color);
   background-color: var(--text-main-color);
 } */
+.history {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 2vh;
+}
+.history li {
+  list-style-type: none;
+}
+
 @media only screen and (max-device-width: 1280px) {
   * {
     font-size: 0.9em;
